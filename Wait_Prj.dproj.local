@@ -2,11 +2,11 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2023/06/16 00:04:10.000.935,=D:\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/06/16 00:05:22.000.584,D:\Projects\Wait API\Main.pas=D:\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/06/16 00:05:22.000.584,D:\Projects\Wait API\Main.dfm=D:\Projects\Unit1.dfm</Transaction>
-    <Transaction>2023/06/16 00:05:31.000.164,D:\Projects\Wait API\Wait.dproj=D:\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/06/16 00:05:22.000.584,D:\Projects\Unit1.pas=D:\Projects\Wait API\Main.pas</Transaction>
+    <Transaction>2023/06/16 00:05:22.000.584,D:\Projects\Unit1.dfm=D:\Projects\Wait API\Main.dfm</Transaction>
+    <Transaction>2023/06/16 00:05:31.000.164,D:\Projects\Project1.dproj=D:\Projects\Wait API\Wait.dproj</Transaction>
     <Transaction>2023/06/16 00:06:35.000.945,=D:\Alexandria\LIB\API\API.Tools.pas</Transaction>
-    <Transaction>2023/06/16 00:52:55.000.394,D:\Projects\Wait API\Wait_Prj.dproj=D:\Projects\Wait API\Wait.dproj</Transaction>
+    <Transaction>2023/06/16 00:52:55.000.394,D:\Projects\Wait API\Wait.dproj=D:\Projects\Wait API\Wait_Prj.dproj</Transaction>
     <Transaction>2023/06/16 02:40:13.000.128,D:\Alexandria\LIB\API\API.Tools.pas=</Transaction>
     <Transaction>2023/06/16 02:40:41.000.488,=D:\Projects\Wait API\API\API.Tools.pas</Transaction>
   </Transactions>

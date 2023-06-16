@@ -10,6 +10,8 @@
   {$ENDIF}
 {$ENDIF}
 
+// Link here: https://ideasawakened.com/post/writing-cross-framework-code-in-delphi
+
 unit API.Tools;
 
 interface
