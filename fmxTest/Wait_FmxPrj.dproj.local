@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/06/16 17:36:03.000.772,=D:\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/16 17:37:07.000.573,D:\Projects\Unit1.pas=D:\Projects\Wait API\fmxTest\Main.pas</Transaction>
+    <Transaction>2023/06/16 17:37:07.000.573,D:\Projects\Unit1.fmx=D:\Projects\Wait API\fmxTest\Main.fmx</Transaction>
+    <Transaction>2023/06/16 17:37:31.000.724,D:\Projects\Project1.dproj=D:\Projects\Wait API\fmxTest\Wait_FmxPrj.dproj</Transaction>
+    <Transaction>2023/06/16 17:38:54.000.146,=D:\Projects\Wait API\API\API.Tools.pas</Transaction>
+  </Transactions>
+</BorlandProject>
