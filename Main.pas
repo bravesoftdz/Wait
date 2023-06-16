@@ -38,7 +38,7 @@ implementation
 procedure TViewMain.Btn_TestClick(Sender: TObject);
 begin
   Wait._For(3500, TControl(Btn_Test));
-  ShowMessage('we wait for 3 Seconds before Show you this Message here !!')
+  ShowMessage('we wait for [ 3 Seconds and Half Sec ] before Show you this Message here !!')
 end;
 
 end.
