@@ -1,0 +1,14 @@
+program Wait_FmxPrj;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  Main in 'Main.pas' {MainView};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TMainView, MainView);
+  Application.Run;
+end.
