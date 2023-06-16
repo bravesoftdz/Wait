@@ -13,8 +13,8 @@ object ViewMain: TViewMain
   Font.Quality = fqClearTypeNatural
   TextHeight = 23
   object Btn_Test: TButton
-    Left = 48
-    Top = 56
+    Left = 40
+    Top = 24
     Width = 337
     Height = 49
     Cursor = crHandPoint
