@@ -1,6 +1,6 @@
 # Wait
 Wait Solution (VCL/FMX)
-Stop the Uss of Stupid Sleep function !!
+Stop the Use of Stupid Sleep function !!
 ---------
   Now with this Solution :
   1) your Main thread Should Wait until your wait function finsh her work without freezing the entire App using the stupid Sleep function !!!
