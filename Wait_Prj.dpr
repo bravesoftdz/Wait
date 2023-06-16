@@ -11,6 +11,8 @@ var
   ViewMain: TViewMain;
 
 begin
+  ReportMemoryLeaksOnShutdown := True;
+
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TViewMain, ViewMain);

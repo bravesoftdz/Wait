@@ -6,6 +6,9 @@
         <Projects Include="Wait_Prj.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="fmxTest\Wait_FmxPrj.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -23,14 +26,23 @@
     <Target Name="Wait_Prj:Make">
         <MSBuild Projects="Wait_Prj.dproj" Targets="Make"/>
     </Target>
+    <Target Name="Wait_FmxPrj">
+        <MSBuild Projects="fmxTest\Wait_FmxPrj.dproj"/>
+    </Target>
+    <Target Name="Wait_FmxPrj:Clean">
+        <MSBuild Projects="fmxTest\Wait_FmxPrj.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Wait_FmxPrj:Make">
+        <MSBuild Projects="fmxTest\Wait_FmxPrj.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="Wait_Prj"/>
+        <CallTarget Targets="Wait_Prj;Wait_FmxPrj"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="Wait_Prj:Clean"/>
+        <CallTarget Targets="Wait_Prj:Clean;Wait_FmxPrj:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="Wait_Prj:Make"/>
+        <CallTarget Targets="Wait_Prj:Make;Wait_FmxPrj:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
