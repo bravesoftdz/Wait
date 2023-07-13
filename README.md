@@ -9,3 +9,8 @@ Stop the Use of Stupid Sleep function !!
   4) the method ExecuteWork from ITask: (runs the task in the calling thread = the main App thread) and this like inject or create Smooth Thread inside the MainAppThread and this what we looking for ...
 ---------
 Please Open The Master Branch !!
+---
+please don't use it and read this here:
+https://en.delphipraxis.net/topic/9316-delphi-thread-itaskexecutework-not-wait-until-task-finish-in-mobile-devices/
+and here:
+https://stackoverflow.com/questions/76569871/delphi-thread-itask-executework-not-wait-until-task-finish-in-mobile-devices
